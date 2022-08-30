@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>KHZAR</title>
+</head>
+
+<body class=" bg-gray-900">
+    <!-- container -->
+    <header class="w-full h-16">
+
+        <div class="container px-4 md:px-0 h-full mx-auto flex justify-between items-center">
+            <!-- logo -->
+            <div class="pt-3">
+                <a href="https://www.instagram.com/khzarm/"><img src="images/logo2.jpg " class="rounded md:w-[150px] w-[75%] italic" alt=" "></a>
+            </div>
+            <!-- nav bar -->
+            <ul id="menu" class="hidden fixed top-0 right-0 px-10 py-16 bg-rose-500 z-50 space-y-8 text-white text-left font-semibold
+            md:relative md:flex md:p-0 md:bg-transparent md:flex-row md:space-x-16 md:text-lg">
+                <li class="md:hidden z-90 fixed top-4 right-6">
+                    <a href="javascript:void(0)" class="text-right text-white text-4xl" onclick="toggleMenu()">&times;</a>
+                </li>
+
+                <li>
+                    <a class="hover:text-black md:text-white text-black md:hover:bg-yellow-300 p-2 hover:rounded-lg transition-ease-in-out delay-150 duration-500 " href="index.html">Home</a>
+                </li>
+                <li>
+                    <a class="hover:font-md hover:text-black md:text-white text-black md:hover:bg-yellow-300 p-2 hover:rounded-lg transition-ease-in-out delay-150 duration-500 " href="bracelets.html">Bracelets</a>
+                </li>
+                <li>
+                    <a class="hover:font-md hover:text-black md:text-white text-black md:hover:bg-yellow-300 p-2 hover:rounded-lg transition-ease-in-out delay-150 duration-500 " href="earrings.html">Earrings</a>
+                </li>
+                <li>
+                    <a class="hover:font-md hover:text-black md:text-white text-black md:hover:bg-yellow-300 p-2 hover:rounded-lg transition-ease-in-out delay-150 duration-500 " href="medal.html">Medal</a>
+                </li>
+                <li>
+                    <a class="hover:font-md hover:text-black md:text-white text-black focus:hover:text-black md:hover:bg-yellow-300 p-2 hover:rounded-lg transition-ease-in-out delay-150 duration-500 " href="reviews.html">Customer Reviews</a>
+                </li>
+                <li class="space-x-4  flex items-center">
+                    <a href="https://www.instagram.com/khzarm/"><img src="icons/icons8-instagram-24.png" class="w-[35px] md:bg-white rounded-md bg-rose-500 md:hover:bg-rose-500 hover:bg-white delay-150 duration-150" alt=""></a>
+                    <a href="https://m.facebook.com/KhzarM/"><img src="icons/icons8-facebook-32.png" class="w-[30px] md:bg-white rounded-md bg-rose-500 md:hover:bg-rose-500 hover:bg-white delay-150 duration-150" alt=""></a>
+                    <a href="https://mail.google.com"><img src="icons/icons8-gmail-logo-50.png" class="w-[25px] md:bg-white rounded-md bg-rose-500 md:hover:bg-rose-500 hover:bg-white delay-150 duration-150" alt=""></a>
+                </li>
+            </ul>
+            <div class="flex items-center md:hidden">
+                <button class="text-white text-4xl font-bold pt-4" onclick="toggleMenu()">
+                    &#9776;
+                </button>
+            </div>
+        </div>
+    </header>
+    <div class="mt-24 md:mt-12"></div>
+    <div class="flex items-center flex-col space-y-5 -mt-12 md:-mt-0">
+        <!-- top section  -->
+        <div class="text-center text-white space-y-5 p-6">
+            <h1 class="font-bold md:text-3xl text-lg text-yellow-300">
+                Khzar For Handmade Jewelry | لتصميم وصناعة الحُلي يدوياً
+            </h1>
+            <p class="font-bold md:text-3xl text-lg text-yellow-300">
+                صُنِعَ في العراقْ
+            </p>
+        </div>
+        <!-- slide images  -->
+        <div class="md:w-[700px] w-full md:p-0 ">
+            <div class=" ">
+                <div class="swiper mySwiper w-4/6 cursor-grab border-yellow-200 ">
+                    <div class="swiper-wrapper ">
+                        <div class="swiper-slide ">
+                            <img src="images/head/head00.jpg " alt=" ">
+                        </div>
+                        <div class="swiper-slide ">
+                            <img src="images/head/head01.jpg " alt=" ">
+                        </div>
+                        <div class="swiper-slide ">
+                            <img src="images/head/head02.jpg " alt=" ">
+                        </div>
+                        <div class="swiper-slide ">
+                            <img src="images/head/head03.jpg " alt=" ">
+                        </div>
+                        <div class="swiper-slide ">
+                            <img src="images/head/head04.jpg " alt=" ">
+                        </div>
+                        <div class="swiper-slide ">
+                            <img src="images/head/head05.jpg " alt=" ">
+                        </div>
+
+                    </div>
+                    <div class="swiper-pagination "></div>
+                </div>
+            </div>
+        </div>
+        <div class="pb-4 "></div>
+    </div>
+    </div>
+    <!-- space  -->
+    <div class="bg-white h-2 ">
+        <hr>
+    </div>
+    <div class="mt-9 "></div>
+    <!-- top  -->
+    <div>
+        <h1 class="text-yellow-400 md:text-4xl text-2xl font-bold pb-6 -mt-4 text-center ">
+            The Earrings | التراجي
+        </h1>
+    </div>
+
+    <div class="bg-gray-200 py-5 text-center">
+        <!-- 1st content  -->
+        <div class="md:flex md:flex-row md:justify-around md:items-center md:space-x-5 md:px-12 md:py-8 felx flex-col items-center">
+            <div class="md:w-9/12 w-full md:p-0 p-12 hover:border-2 md:hover:w-[76%] hover:bg-white delay-150 duration-150 rounded-md hover:rounded-3xl ease-in-out hover:shadow-lg hover:text-lg ">
+                <div class="text-center ">
+                    <img src="images/Earrings/2.jpg " class="rounded-md hover:roumded-3xl " alt=" ">
+                    <p>Miyuki Delica seed beads</p>
+                    <p>
+                        لرؤية التفاصيل
+                        <a href="https://www.instagram.com/p/Ceyt1qjq-f1/ " class="text-blue-700 font-semibold ">اضغط هنا</a>
+                    </p>
+                    <h1>
+                        <span class="font-semibold text-black text-lg ">35</span> الف دينار عراقي
+                    </h1>
+                    <button class=" border-2 rounded-3xl border-blue-500 bg-white text-blue-700 font-semi-bold px-2 my-2 ">
+                        Buy Now
+                    </button>
+                </div>
+            </div>
+            <!-- 2nd content  -->
+            <div class="md:w-9/12 w-full md:p-0 p-12 hover:border-2 md:hover:w-[76%] hover:bg-white delay-150 duration-150 rounded-md hover:rounded-3xl ease-in-out hover:shadow-lg hover:text-lg ">
+                <div class="text-center ">
+                    <img src="images/Earrings/Earrings13.jpg " class="rounded-md hover:roumded-3xl " alt=" ">
+                    <p>Miyuki Delica</p>
+                    <p>
+                        لرؤية التفاصيل
+                        <a href="https://www.instagram.com/p/Cddt-U1KJPM/ " class="text-blue-700 font-semibold ">اضغط هنا</a>
+                    </p>
+                    <h1>
+                        <span class="font-semibold text-black text-lg ">40</span> الف دينار عراقي
+                    </h1>
+                    <button class=" border-2 rounded-3xl border-blue-500 bg-white text-blue-700 font-semi-bold px-2 my-2 ">
+                        Buy Now
+                    </button>
+                </div>
+            </div>
+            <!-- 3rd content  -->
+            <div class="md:w-9/12 w-full md:p-0 p-12 hover:border-2 md:hover:w-[76%] hover:bg-white delay-150 duration-150 rounded-md hover:rounded-3xl ease-in-out hover:shadow-lg hover:text-lg ">
+                <div class="text-center ">
+                    <img src="images/Earrings/Earrings01.jpg " class="rounded-md hover:roumded-3xl " alt=" ">
+                    <p>Casual Wear</p>
+                    <p>
+                        لرؤية التفاصيل
+                        <a href="https://www.instagram.com/p/CcqPJO5KtNr/ " class="text-blue-700 font-semibold ">اضغط هنا</a>
+                    </p>
+                    <h1>
+                        <span class="font-semibold text-black text-lg ">35</span> الف دينار عراقي
+                    </h1>
+                    <button class=" border-2 rounded-3xl border-blue-500 bg-white text-blue-700 font-semi-bold px-2 my-2 ">
+                        Buy Now
+                    </button>
+                </div>
+            </div>
+            <!-- 4th content  -->
+            <div class="md:w-9/12 w-full md:p-0 p-12 hover:border-2 md:hover:w-[76%] hover:bg-white delay-150 duration-150 rounded-md hover:rounded-3xl ease-in-out hover:shadow-lg hover:text-lg ">
+                <div class="text-center ">
+                    <img src="images/Earrings/Earrings03.jpg " class="rounded-md hover:roumded-3xl " alt=" ">
+                    <p>Luxury wear</p>
+                    <p>
+                        لرؤية التفاصيل
+                        <a href="https://www.instagram.com/p/CcimBfKqxan/ " class="text-blue-700 font-semibold ">اضغط هنا</a>
+                    </p>
+                    <h1>
+                        <span class="font-semibold text-black text-lg ">43</span> الف دينار عراقي
+                    </h1>
+                    <button class=" border-2 rounded-3xl border-blue-500 bg-white text-blue-700 font-semi-bold px-2 my-2 ">
+                        Buy Now
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!--  second section   -->
+        <div class="md:flex md:justify-around md:items-center md:space-x-5 md:px-12 md:py-8">
+            <!-- 1st content  -->
+            <div class="md:w-9/12 w-full md:p-0 p-12 hover:border-2 md:hover:w-[76%] hover:bg-white delay-150 duration-150 rounded-md hover:rounded-3xl ease-in-out hover:shadow-lg hover:text-lg ">
+                <div class="text-center ">
+                    <img src="images/Earrings/Earrings14.jpg " class="rounded-md hover:roumded-3xl " alt=" ">
+                    <p>Winter Luxury</p>
+                    <p>
+                        لرؤية التفاصيل
+                        <a href="https://www.instagram.com/p/CY9L9MqKnM6/ " class="text-blue-700 font-semibold ">اضغط هنا</a>
+                    </p>
+                    <h1>
+                        <span class="font-semibold text-black text-lg ">35-37</span> الف دينار عراقي
+                    </h1>
+                    <button class=" border-2 rounded-3xl border-blue-500 bg-white text-blue-700 font-semi-bold px-2 my-2 ">
+                        Buy Now
+                    </button>
+                </div>
+            </div>
+            <!-- 2nd section  -->
+            <div class="md:w-9/12 w-full md:p-0 p-12 hover:border-2 md:hover:w-[76%] hover:bg-white delay-150 duration-150 rounded-md hover:rounded-3xl ease-in-out hover:shadow-lg hover:text-lg ">
+                <div class="text-center ">
+                    <img src="images/Earrings/home12.jpg " class="rounded-md hover:roumded-3xl " alt=" ">
+                    <p>Nests</p>
+                    <p>
+                        لرؤية التفاصيل
+                        <a href="https://www.instagram.com/p/CY6izFRK1bm/ " class="text-blue-700 font-semibold ">اضغط هنا</a>
+                    </p>
+                    <h1>
+                        <span class="font-semibold text-black text-lg ">30</span> الف دينار عراقي
+                    </h1>
+                    <button class=" border-2 rounded-3xl border-blue-500 bg-white text-blue-700 font-semi-bold px-2 my-2 ">
+                        Buy Now
+                    </button>
+
+                </div>
+            </div>
+            <!-- 3rd section  -->
+            <div class="md:w-9/12 w-full md:p-0 p-12 hover:border-2 md:hover:w-[76%] hover:bg-white delay-150 duration-150 rounded-md hover:rounded-3xl ease-in-out hover:shadow-lg hover:text-lg ">
+                <div class="text-center ">
+                    <img src="images/Earrings/Earrings15.jpg " class="rounded-md hover:roumded-3xl " alt=" ">
+                    <p>Luxury</p>
+                    <p>
+                        لرؤية التفاصيل
+                        <a href="https://www.instagram.com/p/CYZTAJbK5Fx/ " class="text-blue-700 font-semibold ">اضغط هنا</a>
+                    </p>
+                    <h1>
+                        <span class="font-semibold text-black text-lg ">37</span> الف دينار عراقي
+                    </h1>
+                    <button class=" border-2 rounded-3xl border-blue-500 bg-white text-blue-700 font-semi-bold px-2 my-2 ">
+                        Buy Now
+                    </button>
+
+                </div>
+            </div>
+            <!-- 4th section  -->
+            <div class="md:w-9/12 w-full md:p-0 p-12 hover:border-2 md:hover:w-[76%] hover:bg-white delay-150 duration-150 rounded-md hover:rounded-3xl ease-in-out hover:shadow-lg hover:text-lg ">
+                <div class="text-center ">
+                    <img src="images/Earrings/Earrings16.jpg " class="rounded-md hover:roumded-3xl " alt=" ">
+                    <p>Geometric Jewelry Lguxury</p>
+                    <p>
+                        لرؤية التفاصيل
+                        <a href="https://www.instagram.com/p/CWvyy5RKxM1/ " class="text-blue-700 font-semibold ">اضغط هنا</a>
+                    </p>
+                    <h1>
+                        <span class="font-semibold text-black text-lg ">35</span> الف دينار عراقي
+                    </h1>
+                    <button class=" border-2 rounded-3xl border-blue-500 bg-white text-blue-700 font-semi-bold px-2 my-2 ">
+                        Buy Now
+                    </button>
+
+                </div>
+            </div>
+        </div>
+        <!-- 3rd section  -->
+        <div class="md:flex md:justify-around md:items-center md:space-x-5 md:px-12 md:py-8 ">
+            <!-- 1st content -->
+            <div class="md:w-9/12 w-full md:p-0 p-12 hover:border-2 md:hover:w-[76%] hover:bg-white delay-150 duration-150 rounded-md hover:rounded-3xl ease-in-out hover:shadow-lg hover:text-lg ">
+                <div class="text-center ">
+                    <img src="images/Earrings/Earrings17.jpg " class="rounded-md hover:roumded-3xl " alt=" ">
+                    <p>Luxury Celebration</p>
+                    <p>
+                        لرؤية التفاصيل
+                        <a href="https://www.instagram.com/p/CTProjpKVeJ/ " class="text-blue-700 font-semibold ">اضغط هنا</a>
+                    </p>
+                    <h1>
+                        <span class="font-semibold text-black text-lg ">38</span> الف دينار عراقي
+                    </h1>
+                    <button class=" border-2 rounded-3xl border-blue-500 bg-white text-blue-700 font-semi-bold px-2 my-2 ">
+                        Buy Now
+                    </button>
+                </div>
+            </div>
+            <!-- 2nd content  -->
+            <div class="md:w-9/12 w-full md:p-0 p-12 hover:border-2 md:hover:w-[76%] hover:bg-white delay-150 duration-150 rounded-md hover:rounded-3xl ease-in-out hover:shadow-lg hover:text-lg ">
+                <div class="text-center ">
+                    <img src="images/Earrings/Earrings18.jpg " class="rounded-md hover:roumded-3xl " alt=" ">
+                    <p>Khatun</p>
+                    <p>
+                        لرؤية التفاصيل
+                        <a href="https://www.instagram.com/p/CRmLNMYKvnT/ " class="text-blue-700 font-semibold ">اضغط هنا</a>
+                    </p>
+                    <h1>
+                        <span class="font-semibold text-black text-lg ">33</span> الف دينار عراقي
+                    </h1>
+                    <button class=" border-2 rounded-3xl border-blue-500 bg-white text-blue-700 font-semi-bold px-2 my-2 ">
+                        Buy Now
+                    </button>
+
+                </div>
+            </div>
+            <!-- 3rd content  -->
+            <div class="md:w-9/12 w-full md:p-0 p-12 hover:border-2 md:hover:w-[76%] hover:bg-white delay-150 duration-150 rounded-md hover:rounded-3xl ease-in-out hover:shadow-lg hover:text-lg ">
+                <div class="text-center ">
+                    <img src="images/Earrings/Earrings07.jpg " class="rounded-md hover:roumded-3xl " alt=" ">
+                    <p>2nd Khatun</p>
+                    <p>
+                        لرؤية التفاصيل
+                        <a href="https://www.instagram.com/p/CRg8qYqBfxo/ " class="text-blue-700 font-semibold ">اضغط هنا</a>
+                    </p>
+                    <h1>
+                        <span class="font-semibold text-black text-lg ">32</span> الف دينار عراقي
+                    </h1>
+                    <button class=" border-2 rounded-3xl border-blue-500 bg-white text-blue-700 font-semi-bold px-2 my-2 ">
+                        Buy Now
+                    </button>
+
+                </div>
+            </div>
+            <!-- 4th content  -->
+            <div class="md:w-9/12 w-full md:p-0 p-12 hover:border-2 md:hover:w-[76%] hover:bg-white delay-150 duration-150 rounded-md hover:rounded-3xl ease-in-out hover:shadow-lg hover:text-lg ">
+                <div class="text-center ">
+                    <img src="images/Earrings/Earrings19.jpg " class="rounded-md hover:roumded-3xl " alt=" ">
+                    <p>Druzzy Agate</p>
+                    <p>
+                        لرؤية التفاصيل
+                        <a href="https://www.instagram.com/p/CQJY1lnBqx6/ " class="text-blue-700 font-semibold ">اضغط هنا</a>
+                    </p>
+                    <h1>
+                        <span class="font-semibold text-black text-lg ">35</span> الف دينار عراقي
+                    </h1>
+                    <button class=" border-2 rounded-3xl border-blue-500 bg-white text-blue-700 font-semi-bold px-2 my-2 ">
+                        Buy Now
+                    </button>
+
+                </div>
+            </div>
+        </div>
+        <!-- 4th section  -->
+        <div class="md:flex md:justify-around md:items-center md:space-x-5 md:px-12 md:py-8">
+            <!-- 1st content  -->
+            <div class="md:w-9/12 w-full md:p-0 p-12 hover:border-2 md:hover:w-[76%] hover:bg-white delay-150 duration-150 rounded-md hover:rounded-3xl ease-in-out hover:shadow-lg hover:text-lg ">
+                <div class="text-center ">
+                    <img src="images/Earrings/Earrings20.jpg " class="rounded-md hover:roumded-3xl " alt=" ">
+                    <p>Vintage</p>
+                    <p>
+                        لرؤية التفاصيل
+                        <a href="https://www.instagram.com/p/CQGt3Pch14Q/ " class="text-blue-700 font-semibold ">اضغط هنا</a>
+                    </p>
+                    <h1>
+                        <span class="font-semibold text-black text-lg ">30</span> الف دينار عراقي
+                    </h1>
+                    <button class=" border-2 rounded-3xl border-blue-500 bg-white text-blue-700 font-semi-bold px-2 my-2 ">
+                        Buy Now
+                    </button>
+                </div>
+            </div>
+            <!-- 2nd content  -->
+            <div class="md:w-9/12 w-full md:p-0 p-12 hover:border-2 md:hover:w-[76%] hover:bg-white delay-150 duration-150 rounded-md hover:rounded-3xl ease-in-out hover:shadow-lg hover:text-lg ">
+                <div class="text-center ">
+                    <img src="images/Earrings/Earrings10.jpg " class="rounded-md hover:roumded-3xl " alt=" ">
+                    <p>Balance</p>
+                    <p>
+                        لرؤية التفاصيل
+                        <a href="https://www.instagram.com/p/Cddt-U1KJPM/ " class="text-blue-700 font-semibold ">اضغط هنا</a>
+                    </p>
+                    <h1>
+                        <span class="font-semibold text-black text-lg ">35</span> الف دينار عراقي
+                    </h1>
+                    <button class=" border-2 rounded-3xl border-blue-500 bg-white text-blue-700 font-semi-bold px-2 my-2 ">
+                        Buy Now
+                    </button>
+                </div>
+            </div>
+            <!-- 3rd content  -->
+            <div class="md:w-9/12 w-full md:p-0 p-12 hover:border-2 md:hover:w-[76%] hover:bg-white delay-150 duration-150 rounded-md hover:rounded-3xl ease-in-out hover:shadow-lg hover:text-lg ">
+                <div class="text-center ">
+                    <img src="images/Earrings/Earrings21.jpg " class="rounded-md hover:roumded-3xl " alt=" ">
+                    <p>Candy Girls</p>
+                    <p>
+                        لرؤية التفاصيل
+                        <a href="https://www.instagram.com/p/CGxZEQJBOls/ " class="text-blue-700 font-semibold ">اضغط هنا</a>
+                    </p>
+                    <h1>
+                        <span class="font-semibold text-black text-lg ">35</span> الف دينار عراقي
+                    </h1>
+                    <button class=" border-2 rounded-3xl border-blue-500 bg-white text-blue-700 font-semi-bold px-2 my-2 ">
+                        Buy Now
+                    </button>
+
+                </div>
+            </div>
+            <!-- 4th content  -->
+            <div class="md:w-9/12 w-full md:p-0 p-12 hover:border-2 md:hover:w-[76%] hover:bg-white delay-150 duration-150 rounded-md hover:rounded-3xl ease-in-out hover:shadow-lg hover:text-lg ">
+                <div class="text-center ">
+                    <img src="images/Earrings/Earrings22.jpg " class="rounded-md hover:roumded-3xl " alt=" ">
+                    <p>Twist</p>
+                    <p>
+                        لرؤية التفاصيل
+                        <a href="https://www.instagram.com/p/CGFnCn1h7U4/ " class="text-blue-700 font-semibold ">اضغط هنا</a>
+                    </p>
+                    <h1>
+                        <span class="font-semibold text-black text-lg ">35</span> الف دينار عراقي
+                    </h1>
+                    <button class=" border-2 rounded-3xl border-blue-500 bg-white text-blue-700 font-semi-bold px-2 my-2 ">
+                        Buy Now
+                    </button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- space  -->
+    <div class="mt-9 "></div>
+    <!-- last section  -->
+    <a href="index.html "><img src="images/logo2.jpg " class="md:w-[150px] w-6/12 pb-6 md:p-0 md:h-8 md:mx-4 " alt=" "></a>
+    <div class=" text-white md:flex md:flex-row md:justify-center md:space-x-48 space-x-0 md:items-center flex flex-col items-center ">
+        <div class="md:flex md:flex-row md:items-center md:justify-between md:space-x-40 md:pb-0 space-x-0 flex flex-row pb-4">
+            <h1 class="flex flex-col items-center md:text-lg text-md ">
+                Contact Us:
+                <ul class="text-center ">
+                    <li><a href="https://www.instagram.com/khzarm/ " class="p-2 hover:font-semibold ">instagram</a></li>
+                    <li><a href="https://m.facebook.com/KhzarM/ " class="p-2 hover:font-semibold ">facebook</a></li>
+                    <li><a href="https://mail.google.com " class="p-2 hover:font-semibold ">gmail</a></li>
+                </ul>
+            </h1>
+            <h1 class="flex flex-col items-center md:text-lg text-md ">
+                See More:
+                <ul class="text-center ">
+                    <li><a href="bracelets.html " class="p-2 hover:font-semibold ">Bracelets</a></li>
+                    <li><a href="earrings.html " class="p-2 hover:font-semibold ">Earrings</a></li>
+                    <li><a href="medal.html " class="p-2 hover:font-semibold ">Medal</a></li>
+                </ul>
+            </h1>
+        </div>
+        <div class="flex flex-col items-center space-y-2 md:p-0 p-4 ">
+            <h1 class="md:text-lg text-md ">Send Your Notes Here plase</h1>
+            <input type="text " placeholder="write your note " class=" rounded-md md:py-3 md:px-6 px-3 py-2 text-center outline-none hover:border border-yellow-300 hover:bg-black hover:text-yellow-400 ">
+            <button class=" md:w-[100px] w-[70px] py-1 rounded-md md:my-0 text-center border-2 border-yellow-300 outline-none transition delay-150 duration-150 hover:bg-black hover:text-yellow-300 ">
+                SEND
+            </button>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js "></script>
+    <script src="main.js "></script>
+</body>
+
+</html>

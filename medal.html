@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>KHZAR</title>
+</head>
+
+<body class=" bg-gray-900">
+    <!-- container -->
+    <header class="w-full h-16">
+
+        <div class="container px-4 md:px-0 h-full mx-auto flex justify-between items-center">
+            <!-- logo -->
+            <div class="pt-3">
+                <a href="https://www.instagram.com/khzarm/"><img src="images/logo2.jpg " class="rounded md:w-[150px] w-[75%] italic" alt=" "></a>
+            </div>
+            <!-- nav bar -->
+            <ul id="menu" class="hidden fixed top-0 right-0 px-10 py-16 bg-rose-500 z-50 space-y-8 text-white text-left font-semibold
+            md:relative md:flex md:p-0 md:bg-transparent md:flex-row md:space-x-16 md:text-lg">
+                <li class="md:hidden z-90 fixed top-4 right-6">
+                    <a href="javascript:void(0)" class="text-right text-white text-4xl" onclick="toggleMenu()">&times;</a>
+                </li>
+
+                <li>
+                    <a class="hover:text-black md:text-white text-black md:hover:bg-yellow-300 p-2 hover:rounded-lg transition-ease-in-out delay-150 duration-500 " href="index.html">Home</a>
+                </li>
+                <li>
+                    <a class="hover:font-md hover:text-black md:text-white text-black md:hover:bg-yellow-300 p-2 hover:rounded-lg transition-ease-in-out delay-150 duration-500 " href="bracelets.html">Bracelets</a>
+                </li>
+                <li>
+                    <a class="hover:font-md hover:text-black md:text-white text-black md:hover:bg-yellow-300 p-2 hover:rounded-lg transition-ease-in-out delay-150 duration-500 " href="earrings.html">Earrings</a>
+                </li>
+                <li>
+                    <a class="hover:font-md hover:text-black md:text-white text-black md:hover:bg-yellow-300 p-2 hover:rounded-lg transition-ease-in-out delay-150 duration-500 " href="medal.html">Medal</a>
+                </li>
+                <li>
+                    <a class="hover:font-md hover:text-black md:text-white text-black focus:hover:text-black md:hover:bg-yellow-300 p-2 hover:rounded-lg transition-ease-in-out delay-150 duration-500 " href="reviews.html">Customer Reviews</a>
+                </li>
+                <li class="space-x-4  flex items-center">
+                    <a href="https://www.instagram.com/khzarm/"><img src="icons/icons8-instagram-24.png" class="w-[35px] md:bg-white rounded-md bg-rose-500 md:hover:bg-rose-500 hover:bg-white delay-150 duration-150" alt=""></a>
+                    <a href="https://m.facebook.com/KhzarM/"><img src="icons/icons8-facebook-32.png" class="w-[30px] md:bg-white rounded-md bg-rose-500 md:hover:bg-rose-500 hover:bg-white delay-150 duration-150" alt=""></a>
+                    <a href="https://mail.google.com"><img src="icons/icons8-gmail-logo-50.png" class="w-[25px] md:bg-white rounded-md bg-rose-500 md:hover:bg-rose-500 hover:bg-white delay-150 duration-150" alt=""></a>
+                </li>
+            </ul>
+            <div class="flex items-center md:hidden">
+                <button class="text-white text-4xl font-bold pt-4" onclick="toggleMenu()">
+                    &#9776;
+                </button>
+            </div>
+        </div>
+    </header>
+    <div class="mt-24 md:mt-12"></div>
+    <div class="flex items-center flex-col space-y-5 -mt-12 md:-mt-0">
+        <!-- top section  -->
+        <div class="text-center text-white space-y-5 p-6">
+            <h1 class="font-bold md:text-3xl text-lg text-yellow-300">
+                Khzar For Handmade Jewelry | لتصميم وصناعة الحُلي يدوياً
+            </h1>
+            <p class="font-bold md:text-3xl text-lg text-yellow-300">
+                صُنِعَ في العراقْ
+            </p>
+        </div>
+        <!-- slide photo  -->
+        <div class="md:w-[700px] w-[400px]">
+            <div class="">
+                <div class="swiper mySwiper w-4/6 cursor-grab border-yellow-200">
+                    <div class="swiper-wrapper ">
+                        <div class="swiper-slide">
+                            <img src="images/head/head05.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide ">
+                            <img src="images/head/head00.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/head/head02.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/head/head03.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/head/head04.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/head/head00.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+        <div class="pb-4"></div>
+    </div>
+    </div>
+
+    <div class="bg-white h-2">
+        <hr>
+    </div>
+    <!-- medal  -->
+    <div>
+        <h1 class="text-yellow-400 md:text-4xl text-2xl font-bold py-6 text-center">
+            The Medal | المداليات
+        </h1>
+    </div>
+    <!-- first section  -->
+    <div class="bg-gray-200 py-5">
+        <div class="md:flex md:justify-around md:items-center md:flex-row flex flex-col-reverse items-center md:py-10">
+            <div class="text-center border mt-4 p-2 md:mt-0 md:w-[25%] w-[80%] mx-2 border-blue-500 md:p-8 rounded shadow-lg bg-gray-100">
+                <h1 class=" text-center">
+                    <span class="text-lg font-bold text-blue-500">Handmaded With Vibes</span>
+                    <br> مطلية بالذهب و سلسلة الموديل الثاني نحاس اصلي
+                    <br> السعر : <span class="text-lg font-bold text-blue-500">37</span> الف دينار فقط
+                    <br> <span class="text-lg font-bold text-blue-500">صُنع في العراق</span>
+                </h1>
+                <a href="https://www.instagram.com/p/CZKD-2xKFXV/">
+                    <button class="my-4  bg-black border-2 font-semibold border-blue-500 text-blue-500 hover:bg-white rounded-full py-3 px-5 duration-150 hover:font-bold hover:border-2 delay-150">
+                    Buy Now!
+                    </button>
+                </a>
+                <p>
+                    لرؤية المزيد <a href="https://www.instagram.com/p/CZKD-2xKFXV/" class="text-blue-500 hover:font-bold duration-150">اضغط هنا</a>
+                </p>
+            </div>
+            <!-- slide images of medal  -->
+            <div class="flex w-[90%] md:w-auto pt-2">
+                <div class="flex flex-col">
+                    <img src="images/Medal/medal01.jpg" class="shadow-lg w-[300px]" alt="">
+                    <img src="images/Medal/medal08.jpg" class="shadow-lg w-[300px]" alt="">
+                </div>
+                <div class="flex flex-col">
+                    <img src="images/Medal/medal04.jpg" class="shadow-lg w-[300px]" alt="">
+                    <img src="images/Medal/medal09.jpg" class="shadow-lg w-[300px]" alt="">
+                </div>
+            </div>
+        </div>
+        <!-- space between two section  -->
+        <div class="my-8 bg-gray-900">
+            <hr class="p-1">
+        </div>
+        <!-- 2nd section  -->
+        <div class="md:flex md:justify-around md:items-center md:flex-row flex flex-col items-center md:py-10">
+            <!-- imges  -->
+            <div class="flex w-[90%] md:w-auto pt-2">
+                <div class="flex flex-col">
+                    <img src="images/Medal/medal11.jpg" class="w-[300px] md:shadow-lg" alt="">
+                    <img src="images/Medal/medal13.jpg" class="w-[300px] md:shadow-lg" alt="">
+                </div>
+                <div class="flex flex-col ">
+                    <img src="images/Medal/medal10.jpg" class="w-[300px] md:shadow-lg" alt="">
+                    <img src="images/Medal/medal12.jpg" class="w-[300px] md:shadow-lg" alt="">
+                </div>
+            </div>
+            <!-- description  -->
+            <div class="text-center border mt-4 p-2 md:mt-0 md:w-[30%] w-[80%] mx-2 border-rose-500 md:p-8 rounded shadow-lg bg-gray-100">
+                <h1 class=" text-center">
+                    <span class="text-lg font-bold text-rose-500">Handmaded With Vibes</span>
+                    <br> ثلاث تصاميم مختلفة
+                    <br> السعر: <span class="text-lg font-bold text-rose-500"> 35 </span> الف دينار
+                    <br> <span class="text-lg font-bold text-rose-500">صُنع في العراق</span>
+                </h1>
+                <a href="https://www.instagram.com/p/CVIp-ASqu77/">
+                    <button class="my-4  bg-black border-2 font-semibold border-rose-500 text-rose-500 hover:bg-white rounded-full py-3 px-5 duration-150 hover:font-bold hover:border-2 delay-150">
+                    Buy Now!
+                    </button>
+                </a>
+                <p>
+                    لرؤية المزيد <a href="https://www.instagram.com/p/CVIp-ASqu77/" class="text-rose-500 hover:font-bold duration-150">اضغط هنا</a>
+                </p>
+            </div>
+        </div>
+        <!-- space between  -->
+        <div class="my-8 bg-gray-900">
+            <hr class="p-1">
+        </div>
+        <!-- 3rd section  -->
+        <div class="md:flex md:justify-around md:items-center md:flex-row flex flex-col-reverse items-center md:py-10">
+            <!-- description  -->
+            <div class="text-center border mt-4 p-2 md:mt-0 md:w-[30%] w-[80%] mx-2 border-purple-500 md:p-8 rounded shadow-lg bg-gray-100">
+                <h1 class="text-center">
+                    <span class="text-lg font-bold text-purple-500">Handmaded With Vibes</span>
+                    <br>
+                    <span class="text-lg">Fluorite Serpentine</span>
+                    <br> سعر القطعة : <span class="text-lg font-bold text-purple-500">35</span> دينار عراقي
+                    <br> <span class="text-lg font-bold text-purple-500">صُنع في العراق</span>
+                </h1>
+                <a href="https://www.instagram.com/p/CQlnDgLBzuO/">
+                    <button class="my-4  bg-black border-2 font-semibold border-purple-500 text-purple-500 hover:bg-white rounded-full py-3 px-5 duration-150 hover:font-bold hover:border-2 delay-150">
+                    Buy Now!
+                    </button>
+                </a>
+                <p>
+                    لرؤية المزيد <a href="https://www.instagram.com/p/CQlnDgLBzuO/" class="text-purple-500 hover:font-bold duration-150">اضغط هنا</a>
+                </p>
+            </div>
+            <!-- images  -->
+            <div class="md:flex md:flex-row items-center md:px-0 w-[100%] mx-2 md:mx-0 pt-2 md:pt-0 px-8 md:w-auto">
+                <div class="">
+                    <img src="images/Medal/medal16.jpg" class="md:w-[400px] w-[350px] shadow-lg" alt="">
+
+                </div>
+                <div class="flex md:flex-col flex-row">
+                    <img src="images/Medal/medal15.jpg" class="shadow-lg md:w-[250px] w-[50%]" alt="">
+                    <img src="images/Medal/medal14.jpg" class="md:w-[250px] w-[50%] shadow-lg" alt="">
+                </div>
+            </div>
+        </div>
+        <!-- space  -->
+        <div class="my-8 bg-gray-900">
+            <hr class="p-1">
+        </div>
+        <!-- 4th section  -->
+        <div class="md:flex md:justify-around md:items-center md:flex-row flex flex-col items-center md:py-10">
+            <!-- images  -->
+            <div class="flex w-[90%] md:w-auto pt-2">
+                <div class="flex flex-col">
+                    <img src="images/Medal/medal17.jpg" class="w-[300px] shadow-lg" alt="">
+                    <img src="images/Medal/medal19.jpg" class="w-[300px] shadow-lg" alt="">
+                </div>
+                <div class="flex flex-col">
+                    <img src="images/Medal/medal18.jpg" class="w-[300px] shadow-lg" alt="">
+                    <img src="images/Medal/medal20.jpg" class="w-[300px] shadow-lg" alt="">
+                </div>
+            </div>
+            <!-- description  -->
+            <div class="text-center border mt-4 p-2 md:mt-0 md:w-[30%] w-[80%] mx-2 border-green-500 md:p-8 rounded shadow-lg bg-gray-100">
+                <h1 class="text-center ">
+                    <span class="text-lg font-bold text-green-500">Handmaded With Vibes</span>
+                    <br>
+                    <span class="text-lg  ">Celebrate Yourself</span>
+                    <br> سعر القطعة : <span class="text-lg font-bold text-green-500">37</span> دينار عراقي
+                    <br> <span class="text-lg font-bold text-green-500 ">صُنع في العراق</span>
+                </h1>
+                <a href="https://www.instagram.com/p/CHiUPHgBWLX/">
+                    <button class="my-4  bg-black border-2 font-semibold border-green-500 text-green-500 hover:bg-white rounded-full py-3 px-5 duration-150 hover:font-bold hover:border-2 delay-150">
+                    Buy Now!
+                    </button>
+                </a>
+                <p>
+                    لرؤية المزيد <a href="https://www.instagram.com/p/CHiUPHgBWLX/" class="text-green-500 hover:font-bold duration-150">اضغط هنا</a>
+                </p>
+            </div>
+        </div>
+        <!-- space  -->
+        <div class="my-8 bg-gray-900 ">
+            <hr class="p-1 ">
+        </div>
+        <!-- 5th section  -->
+        <div class="md:flex md:justify-around md:items-center md:flex-row flex flex-col-reverse items-center md:py-10">
+            <!-- description  -->
+            <div class="text-center border mt-4 p-2 md:mt-0 md:w-[30%] w-[80%] mx-2 border-red-500 md:p-8 rounded shadow-lg bg-gray-100">
+                <h1 class=" text-center ">
+                    <span class="text-lg font-bold text-red-500">Handmaded With Vibes</span>
+                    <br> <span class="text-lg"> luxurious </span>
+                    <br> السعر: <span class="font-bold text-lg text-red-500">...</span> الف دينار
+                    <br> <span class="text-lg font-bold text-red-500 ">صُنع في العراق</span>
+
+                </h1>
+                <a href="https://www.instagram.com/p/CCbjsTCBS9S/">
+                    <button class="my-4  bg-black border-2 font-semibold border-red-500 text-red-500 hover:bg-white rounded-full py-3 px-5 duration-150 hover:font-bold hover:border-2 delay-150">
+                    Buy Now!
+                    </button>
+                </a>
+                <p>
+                    لرؤية المزيد <a href="https://www.instagram.com/p/CCbjsTCBS9S/" class="text-red-500 hover:font-bold duration-150">اضغط هنا</a>
+                </p>
+            </div>
+            <!-- images  -->
+            <div class="flex w-[90%] md:w-auto pt-2">
+                <div class="flex flex-col">
+                    <img src="images/Medal/medal21.jpg " class="shadow-lg w-[300px] " alt=" ">
+                    <img src="images/Medal/medal23.jpg " class="shadow-lg w-[300px] " alt=" ">
+                </div>
+                <div class="flex flex-col">
+                    <img src="images/Medal/medal22.jpg " class="shadow-lg w-[300px] " alt=" ">
+                    <img src="images/Medal/medal24.jpg " class="shadow-lg w-[300px] " alt=" ">
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- space  -->
+    <div class="mt-9 "></div>
+    <!-- last contant  -->
+    <a href="index.html "><img src="images/logo2.jpg " class="md:w-[150px] w-6/12 pb-6 md:p-0 md:h-8 md:mx-4 " alt=" "></a>
+    <div class=" text-white md:flex md:flex-row md:justify-center md:space-x-48 space-x-0 md:items-center flex flex-col items-center ">
+        <div class="md:flex md:flex-row md:items-center md:justify-between md:space-x-40 md:pb-0 space-x-0 flex flex-row pb-4">
+            <h1 class="flex flex-col items-center md:text-lg text-md ">
+                Contact Us:
+                <ul class="text-center ">
+                    <li><a href="https://www.instagram.com/khzarm/ " class="p-2 hover:font-semibold ">instagram</a></li>
+                    <li><a href="https://m.facebook.com/KhzarM/ " class="p-2 hover:font-semibold ">facebook</a></li>
+                    <li><a href="https://mail.google.com " class="p-2 hover:font-semibold ">gmail</a></li>
+                </ul>
+            </h1>
+            <h1 class="flex flex-col items-center md:text-lg text-md ">
+                See More:
+                <ul class="text-center ">
+                    <li><a href="bracelets.html " class="p-2 hover:font-semibold ">Bracelets</a></li>
+                    <li><a href="earrings.html " class="p-2 hover:font-semibold ">Earrings</a></li>
+                    <li><a href="medal.html " class="p-2 hover:font-semibold ">Medal</a></li>
+                </ul>
+            </h1>
+        </div>
+        <div class="flex flex-col items-center space-y-2 md:p-0 p-4 ">
+            <h1 class="md:text-lg text-md ">Send Your Notes Here plase</h1>
+            <input type="text " placeholder="write your note " class=" rounded-md md:py-3 md:px-6 px-3 py-2 text-center outline-none hover:border border-yellow-300 hover:bg-black hover:text-yellow-400 ">
+            <button class=" md:w-[100px] w-[70px] py-1 rounded-md md:my-0 text-center border-2 border-yellow-300 outline-none transition delay-150 duration-150 hover:bg-black hover:text-yellow-300 ">
+                SEND
+            </button>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js "></script>
+    <script src="main.js "></script>
+</body>
+
+</html>

@@ -13,44 +13,53 @@
 
 <body class=" bg-black">
     <div>
-        <header>
-            <div class="flex justify-around items-center p-5">
+        <header class="w-full h-16 p-4">
+            <div class="container px-4 md:px-0 h-full mx-auto flex justify-between items-center">
                 <!-- logo -->
-                <h1 class="text-white text-4xl font-semibold">
+                <h1 class="text-white pt-4 text-4xl font-semibold">
                     <a href="">
                         <span class="text-red-500">R</span>ASULOO<span class="text-red-500">V</span>
                     </a>
                 </h1>
-                <ul class=" text-white text-2xl font-medium flex space-x-6">
-                    <li>
-                        <a href="https://www.instagram.com/_rgh11/" class="hover:text-white md:hover:bg-red-500 p-2 hover:rounded-lg transition-ease-in-out delay-150 duration-500 ">Instagram</a>
+                <ul id="menu" class="hidden fixed top-0 right-0 px-10 py-16 bg-rose-500 z-50 space-y-8 text-white text-left font-semibold
+                    md:relative md:flex md:p-0 md:bg-transparent md:flex-row md:space-x-16 md:text-lg">
+                    <li class="md:hidden z-90 fixed top-4 right-6">
+                        <a href="javascript:void(0)" class="text-right text-white text-4xl" onclick="toggleMenu()">&times;</a>
                     </li>
                     <li>
-                        <a href="https://m.facebook.com/rasul.gh11" class="hover:text-white md:hover:bg-red-500 p-2 hover:rounded-lg transition-ease-in-out delay-150 duration-500 ">Facebook</a>
+                        <a href="https://www.instagram.com/_rgh11/ " class="hover:text-white text-2xl md:hover:bg-red-500 p-2 hover:rounded-lg transition-ease-in-out delay-150 duration-500 ">Instagram</a>
                     </li>
                     <li>
-                        <a href="https://www.linkedin.com/in/rasul-ghassan-5a9a95245/" class="hover:text-white md:hover:bg-red-500 p-2 hover:rounded-lg transition-ease-in-out delay-150 duration-500 ">Linkedin</a>
+                        <a href="https://m.facebook.com/rasul.gh11 " class="hover:text-white text-2xl md:hover:bg-red-500 p-2 hover:rounded-lg transition-ease-in-out delay-150 duration-500 ">Facebook</a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/rasul-ghassan-5a9a95245/ " class="hover:text-white text-2xl md:hover:bg-red-500 p-2 hover:rounded-lg transition-ease-in-out delay-150 duration-500 ">Linkedin</a>
                     </li>
                 </ul>
+                <div class="flex items-center md:hidden">
+                    <button class="text-white text-4xl font-bold pt-4" onclick="toggleMenu()">
+                        &#9776;
+                    </button>
+                </div>
             </div>
         </header>
     </div>
-    <div class="mt-5">
+    <div class="mt-5 ">
 
     </div>
-    <div class="flex justify-around items-center ">
-        <img src="images/Layer 1.png" class="w-[550px] rounded-lg shadow-2xl" alt="">
-        <div class="flex flex-col items-center text-center text-white w-[500px] text-lg">
-            <h1 class="text-center text-3xl font-semibold py-2 text-red-500">
+    <div class="flex flex-col md:flex-row justify-around items-center overflow-hidden">
+        <img src="images/Layer 1.png " class="md:w-[550px] w-full p-4 md:p-0 rounded-lg shadow-2xl " alt=" ">
+        <div class="flex flex-col items-center text-center text-white md:w-[500px] w-auto text-lg ">
+            <h1 class="text-center text-3xl font-semibold py-2 text-red-500 ">
                 Rasul Ghassan Salman
             </h1>
             <span>
                 Studying Laser And Optoelectronig Engineering Department
-                <br> in <a href="https://uotechnology.edu.iq" class="text-red-500">University Of Technology</a> Baghdad-Iraq
+                <br> in <a href="https://uotechnology.edu.iq " class="text-red-500 ">University Of Technology</a> Baghdad-Iraq
             </span>
             <span>
                 i have been built some project by using 
-                <ul class="flex justify-center space-x-2 text-red-500 font-semibold">
+                <ul class="flex justify-center space-x-2 text-red-500 font-semibold ">
                     <li>HTML</li>
                     <li>CSS</li>
                     <li>JS</li>
@@ -59,35 +68,35 @@
                 </ul>
             </span>
             <span>
-               you can check my project in github <a href="https://github.com/Rasuloov" class="text-blue-500">click here</a> 
+               you can check my project in github <a href="https://github.com/Rasuloov " class="text-blue-500 ">click here</a> 
             </span> Contact with me in :
-            <ul class="flex justify-between space-x-3">
+            <ul class="flex justify-between space-x-3 ">
                 <li>
-                    <a href="https://m.facebook.com/rasul.gh11">
-                        <img src="icons/icons8-facebook.svg" alt="">
+                    <a href="https://m.facebook.com/rasul.gh11 ">
+                        <img src="icons/icons8-facebook.svg " alt=" ">
                     </a>
                 </li>
                 <li>
-                    <a href="https://www.instagram.com/_rgh11/">
-                        <img src="icons/icons8-instagram.svg" alt="">
+                    <a href="https://www.instagram.com/_rgh11/ ">
+                        <img src="icons/icons8-instagram.svg " alt=" ">
                     </a>
                 </li>
                 <li>
-                    <a href="https://www.linkedin.com/in/rasul-ghassan-5a9a95245/">
-                        <img src="icons/icons8-linkedin-circled.svg" alt="">
+                    <a href="https://www.linkedin.com/in/rasul-ghassan-5a9a95245/ ">
+                        <img src="icons/icons8-linkedin-circled.svg " alt=" ">
                     </a>
                 </li>
             </ul>
             <ul>
-                <li class="flex  items-center space-x-2">
-                    <a href="">
-                        <img src="icons/icons8-whatsapp.svg" alt="">
+                <li class="flex items-center space-x-2 ">
+                    <a href=" ">
+                        <img src="icons/icons8-whatsapp.svg " alt=" ">
                     </a>
                     <span>  +946 780 329 4090  </span>
                 </li>
-                <li class="flex items-center space-x-2">
-                    <a href="">
-                        <img src="icons/icons8-gmail.svg" alt="">
+                <li class="flex items-center space-x-2 ">
+                    <a href=" ">
+                        <img src="icons/icons8-gmail.svg " alt=" ">
                     </a>
                     <span>rasulghassan5@gmail.com</span>
                 </li>
@@ -99,7 +108,7 @@
 
 
 
-    <script src="main.js"></script>
+    <script src="main.js "></script>
 </body>
 
 </html>
